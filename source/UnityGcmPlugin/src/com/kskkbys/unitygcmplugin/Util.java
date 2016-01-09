@@ -36,7 +36,6 @@ public class Util {
 	 */
 	public static void showToast(final String message) {
 		UnityPlayer.currentActivity.runOnUiThread(new Runnable() {
-			@Override
 			public void run() {
 				Toast.makeText(UnityPlayer.currentActivity, message, Toast.LENGTH_SHORT).show();
 			}
